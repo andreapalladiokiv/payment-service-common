@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Techork\PaymentService\Common\ValueObject\Risk;
+namespace Techork\PaymentService\Common\ValueObject;
 
 /**
  * The client-side signals a fraud check needs about the connection the

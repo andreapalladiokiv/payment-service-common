@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Techork\PaymentService\Common\ValueObject\Risk\IpAddress;
+use Techork\PaymentService\Common\ValueObject\IpAddress;
 
 it('accepts a valid IPv4 address', function () {
     expect(new IpAddress('203.0.113.7')->toString())->toBe('203.0.113.7');

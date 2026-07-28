@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Techork\PaymentService\Common\ValueObject\Risk;
+namespace Techork\PaymentService\Common\ValueObject;
 
 use InvalidArgumentException;
 use Stringable;
